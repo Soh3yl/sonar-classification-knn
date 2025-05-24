@@ -1,10 +1,5 @@
 # Sonar Signal Classification using K-Nearest Neighbors (KNN)
 
-## Repository Information
-**Repository Name:** `sonar-classification-knn`
-
-**Description:** A machine learning project that classifies sonar signals to distinguish between rocks (R) and metal objects (M) using K-Nearest Neighbors algorithm with hyperparameter tuning via GridSearchCV.
-
 ## Project Overview
 
 This project implements a binary classification system to analyze sonar signals and differentiate between rocks and metal objects. The dataset contains sonar readings with various frequency measurements, and the goal is to build an accurate classifier using the K-Nearest Neighbors algorithm.
@@ -46,11 +41,6 @@ cd sonar-classification-knn
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-3. Ensure your dataset is in the correct path:
-```
-2- Dataset/sonar.all-data.csv
-```
-
 ## Usage
 
 Run the Jupyter notebook or Python script to:
@@ -84,9 +74,7 @@ sonar-classification-knn/
 │
 ├── README.md
 ├── sonar_classification.ipynb
-├── requirements.txt
-└── 2- Dataset/
-    └── sonar.all-data.csv
+└── sonar.all-data.csv
 ```
 
 ## Key Insights
@@ -107,10 +95,6 @@ sonar-classification-knn/
 ## Contributing
 
 Feel free to fork this repository and submit pull requests for improvements or bug fixes.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
